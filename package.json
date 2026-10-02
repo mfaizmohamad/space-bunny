@@ -22,7 +22,7 @@
     "models": "node scripts/make-models.mjs",
     "diag": "node scripts/diag.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.114.3",

@@ -33,7 +33,7 @@ import { resolve } from 'node:path';
  * directories beginning with an underscore out of the published site.
  */
 function spaFallback() {
-  let base = '/';
+  let base = '/space-bunny/';
   let outDir = 'dist';
 
   return {
